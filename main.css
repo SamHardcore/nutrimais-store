@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-nutri {
+    font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style:oblique;
+}
+
+header li {
+    font-family: "Bungee", sans-serif;
+}
+
+p , li , input , textarea {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+section h2, form button {
+    font-family: "Bungee", sans-serif;
+}
+
+body {
+    background-color: #7dad93;
+}
+
+header {
+    padding: 25px 0;
+    background-color: #f6e7f7;
+}
+
+h2 {
+    color:#275245 ; 
+    border-radius:25px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+     max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a{
+    text-decoration: none;
+    color: #275245;
+}
+
+header .logo-container , .logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#about img {
+    height: 500px;
+    margin-top: 175px;
+    border-radius: 10%;
+    box-shadow: 0px 0 10px 0px #141414;
+    
+}
+
+section h2 {
+   margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.titulo h1 {
+    font-family: "Bungee", sans-serif;
+    color: #275245;
+    height: 50px;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 150px;
+}
+
+#creatina img {
+    height: 400px;
+    margin-top: 175px;
+    border-radius: 5%;
+    box-shadow: 0px 0 10px 0px #141414;
+    margin-right: 25px;
+}
+
+#creatina h2 {
+    margin-top: 155px;
+}
+
+#whey img {
+    height: 450px;
+    margin-top: 175px;
+    border-radius: 5%;
+    box-shadow: 0px 0 10px 0px #141414;
+    margin-left: 25px;
+}
+
+#whey h2{
+    margin-top: 120px;
+}
+
+#contact h2 {
+    margin-top: 150px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 328px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form button {
+    background-color: #275245;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #013d1c;
+}
+  
+input:focus, textarea:focus {
+    outline-color: #275245;
+}
+
+#contact img {
+    margin-right: 160px;
+    height: 500px;
+}
+
+footer {
+    background-color: #275245;
+    color: white;
+    padding: 16px 0;
+    margin-top: 80px;
+}
+
